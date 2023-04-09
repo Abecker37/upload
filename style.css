@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+}
+.card{
+    display: grid;
+    grid-template-columns: repeat( auto-fill, minmax(250px, 1fr) );
+    gap: 3rem;
+    
+}
+p{
+    text-align: center;
+}
+article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    border-radius: 6px;
+    border: solid grey;
+}
+
+ article img{
+    
+    width: 100%;
+    object-fit: cover;
+    height:300px;   
+}
